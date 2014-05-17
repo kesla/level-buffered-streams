@@ -1,0 +1,32 @@
+{
+  "name": "level-buffered-streams",
+  "version": "0.0.0",
+  "description": "Create streams that emits arrays from levelup",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kesla/level-buffered-streams.git"
+  },
+  "keywords": [
+    "levelup"
+  ],
+  "author": "Pop Björklund <david.bjorklund@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kesla/level-buffered-streams/issues"
+  },
+  "homepage": "https://github.com/kesla/level-buffered-streams",
+  "dependencies": {
+    "levelup-util": "^1.0.0",
+    "xtend": "^3.0.0",
+    "readable-stream": "^1.0.27-1"
+  },
+  "devDependencies": {
+    "leveldown": "https://github.com/rvagg/node-leveldown/archive/0.11-wip.tar.gz",
+    "levelup": "^0.18.3",
+    "rimraf": "^2.2.8"
+  }
+}
